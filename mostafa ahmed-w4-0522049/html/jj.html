@@ -1,0 +1,86 @@
+
+
+<form id="login-form" class="form" >
+    <h2>signup form</h2>
+    <div class="input">
+        <p>username</p>
+        <input id="user" type="text" placeholder="username" required>
+    </div>
+    <div class="input">
+      <p>phone</p>
+      <input id="phone" type="text" placeholder="phone" required>
+  </div>
+
+    <div class="input">
+        <p>password</p>
+        <input id="pass" type="password" placeholder="password" required>
+    </div>
+    
+    <div class="input">
+      <p>age</p>
+      <input id="age" type="text" placeholder="age" required>
+    </div>
+    <div class="radio-input">
+      <p>gender</p>
+      <div class="radio">
+        <label>male<input type="radio" name="gender" value="male" required></label>
+        <label>female<input type="radio" name="gender" value="female" required></label>
+    </div>
+    </div>
+    <div class="signup">
+        Already have an account?
+        <a href="#" onclick="loginn()">Login</a>
+    </div>
+    <input id="button" onclick="signup()" type="button" value="Submit">
+</form>
+  <script src="../js/login.js"></script>
+  
+</div>
+
+
+
+
+
+.input p{
+    margin-bottom: 5px;
+}
+.input{
+    margin-bottom: 10px;
+    text-align: left;
+    
+}
+.input input{
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 10px;
+}
+.forget{
+    margin-bottom: 10px;
+}
+.signup{
+    margin-bottom: 10px;
+}
+#button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+
+a{
+    text-decoration: none;
+   
+}
+.hidden{
+  display: none;
+}
+.radio-input{
+  text-align: left;
+}
+.radio-input p{
+  margin-bottom: 5px;
+}
+select{
+  margin: 10px 0px;
+}

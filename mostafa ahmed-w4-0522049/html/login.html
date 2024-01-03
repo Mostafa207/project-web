@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+    <form id="signup-form" class="form hidden" >
+        <h2>login form</h2>
+        <div class="input">
+            <p>username</p>
+            <input id="name" type="text" name="username" placeholder="username" required>
+        </div>
+        <div class="input">
+            <p>password</p>
+            <input id="pass" type="password" name="password" placeholder="password" required>
+        </div>
+        <div class="forget">
+            <a href="#">Forget your password?</a>
+        </div>
+        <div class="signup">
+            Don't have an account?
+            <a href="#" onclick="signupn()">Sign up</a>
+        </div>
+        <input type="submit" onclick="login"></input>
+    </form>
+    <form id="login-form" class="form" >
+        <h2>signup form</h2>
+        <div class="input">
+            <p>username</p>
+            <input id="user" type="text" placeholder="username" required>
+        </div>
+        <div class="input">
+          <p>phone</p>
+          <input id="phone" type="text" placeholder="phone" required>
+      </div>
+    
+        <div class="input">
+            <p>password</p>
+            <input id="pass" type="password" placeholder="password" required>
+        </div>
+        
+        <div class="input">
+          <p>age</p>
+          <input id="age" type="text" placeholder="age" required>
+        </div>
+        <div class="radio-input">
+          <p>gender</p>
+          <div class="radio">
+            <label>male<input type="radio" name="gender" value="male" required></label>
+            <label>female<input type="radio" name="gender" value="female" required></label>
+        </div>
+        </div>
+    
+        <input id="button" onclick="signup()" type="button" value="Submit">
+    </form>
+      <script src="../js/login.js"></script>
+
+
+
+</body>
+</html>

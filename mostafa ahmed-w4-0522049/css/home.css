@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding-left: 300px;
+    background-color: black;
+    width: 100%;
+    display: flex
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    transition: 1s;
+
+}
+img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin: 50px;
+}
+.slider{
+    display: flex;
+    width: 400vw;
+    transition: 1s;
+}
+.f{
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    padding: 0px 40px;
+}
+.container{
+    overflow: hidden;
+    width: 100vw;
+    
+}
+footer{
+    background-color: black;
+    display: flex;
+   justify-content: space-around;
+    color: white;
+    height: 100px;
+    
+}
+footer li{
+    text-decoration: none;
+}

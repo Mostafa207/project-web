@@ -1,0 +1,39 @@
+.form table{
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .table td{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0px 50px;
+  }
+  .table th{
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 16px;
+    padding: 20px 50px;
+  }
+  
+  .form-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .form{
+  border: 1px solid black;
+  }
+  
+  button{
+    width: 50%;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border-radius: 16px;
+  }
+  
+  
